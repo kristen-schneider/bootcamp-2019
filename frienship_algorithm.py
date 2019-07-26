@@ -37,13 +37,59 @@ def play_game():
         total_points += p3
 
         ## QUESTION 4
-        answer4 = input('Quick! Pick a ?\n1. Goofy!\n2. Sarcastic!\n'
-                        '3. I love puns!\n4. I hate humor.\n\nYour Answer: ')
+        answer4 = input('Quick! Pick a fruit.\n1. Apple\n2. Banana\n'
+                        '3. Peach\n4. I hate fruit.\n\nYour Answer: ')
         p4 = give_points(answer4)
         while p4 == -1:
             answer4 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
             p4 = give_points(answer4)
         total_points += p4
+
+
+	## QUESTION 5
+        answer5 = input('A vegetable?\n1. ALL OF THEM!\n2. Broccoli\n'
+                        '3. Cabbage\n4. I hate vegetables.\n\nYour Answer: ')
+        p5 = give_points(answer5)
+        while p5 == -1:
+            answer5 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
+            p5 = give_points(answer5)
+        total_points += p5
+
+	## QUESTION 6
+        answer6 = input('Who is the best rapper of all time.\n1. Marshall Bruce Mathers III.\n2. Kendrick Lamar\n'
+                        '3. MGK\n4. I hate rap.\n\nYour Answer: ')
+        p6 = give_points(answer6)
+        while p6 == -1:
+            answer4 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
+            p6 = give_points(answer6)
+        total_points += p6
+
+	## QUESTION 7
+        answer7_a = input('If you could live in any city in the US, where would you live?\n1. Chicago\n2. NYC\n'
+                        '3. Denver\n4. I hate cities.\n\nYour Answer: ')
+        p7_a = give_points(answer7_a)
+        while p7_a == -1:
+            answer7_a = input('INVALID INPUT. Try again.\n\nYour Answer: ')
+            p7_a = give_points(answer7_a)
+        total_points += p7_a
+	if answer7_a == 1:
+		answer7_b = input('Where are we going for deep dish?\n1. Gio\'s\n2. Lou\'s\n'
+                        '3. Wherever, I guess.\n4. I hate deep dish.\n\nYour Answer: ')
+		p7_b = give_points(answer7_b)
+        	while p7_b == -1:
+            		answer7_b = input('INVALID INPUT. Try again.\n\nYour Answer: ')
+            	p7_b = give_points(answer7_b)
+        	total_points += p7_b
+
+
+	## QUESTION 8
+	answer8 = input('If you could live in any city outside the US, where would you live?\n1. Mexico City\n2. Rio de Janeiro\n'
+                        '3. Denver\n4. I said I hate cities!\n\nYour Answer: ')
+	p8 = give_points(answer8)
+        while p8 == -1:
+            answer8 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
+            p8 = give_points(answer8)
+        total_points += p8
 
 
         ## REPEAT MENU ITEM
