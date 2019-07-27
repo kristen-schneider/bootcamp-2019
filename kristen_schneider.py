@@ -4,7 +4,7 @@ def play_game():
     ## START GAME
     user_entry = 0
     while user_entry != 1 and user_entry != 2: user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
-    while user_entry != 2:
+    while user_entry == 1:
 
         ## KEEP TRACK OF POINTS
         total_points = 0
@@ -110,10 +110,8 @@ def play_game():
         total_points += p10
 
 	
-	result = calculate_friendship(total_points)
-	print 'You\'ve completed my friendship algorithm! Thanks for playing!\n
-		RESULTS: ' + str(total_points) + '/110.'
-	calculate_frienship(total_points)
+	print 'You\'ve completed my friendship algorithm! Thanks for playing!\nRESULTS: ' + str(total_points) + '/110.'
+	calculate_friendship(total_points)
  
         ## REPEAT MENU ITEM
         user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
@@ -123,17 +121,17 @@ def give_points(answer):
     	if answer == 1: q_points += 10
     	elif answer == 2: q_points += 5
     	elif answer == 3: q_points += 0
-    	elif answer == 4: q_points -= -5
+    	elif answer == 4: q_points -= 5
     	else: q_points = -1
 
    	return q_points
 
 def calculate_friendship(points):
     	if points >= 85: print 'We are gonna be TIGHT. Boys for LIFE!!!!\n\n'
-    	elif points < 85 and points >= 60: 'You\'re pretty chill. Or MAYBE you\'re insane. Either way. I\'m into it.\n\n'
-	elif points < 60 and points >= 30: 'Ya. We different, but we sometimes the same. Could be a fun balancing act?\n\n'
-	elif points < 30 and points >= 0: 'I\'m sure we could find SOMETHING we have in common. Eventually.\n\n'
-	else: 'So we\'re REALLY different !! That\'s cool I guess!.. ..!!.. !.\n\n'
+    	elif points < 85 and points >= 50: print 'You\'re pretty chill. Or MAYBE you\'re insane. Either way. I\'m into it.\n\n'
+	elif points < 50 and points >= 20: print 'Ya. We different, but we sometimes the same. Could be a fun balancing act?\n\n'
+	elif points < 20 and points >= 0: print 'I\'m sure we could find SOMETHING we have in common. Eventually.\n\n'
+	else: print 'So we\'re REALLY different !! That\'s cool I guess!.. ..!!.. !.\n\n'
 
 play_game()
 
