@@ -57,7 +57,7 @@ def play_game():
 
 	## QUESTION 6
         answer6 = input('Who is the best rapper of all time.\n1. Marshall Bruce Mathers III.\n2. Kendrick Lamar\n'
-                        '3. MGK\n4. I hate rap.\n\nYour Answer: ')
+                        '3. Drake\n4. I hate rap.\n\nYour Answer: ')
         p6 = give_points(answer6)
         while p6 == -1:
             answer4 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
@@ -84,30 +84,56 @@ def play_game():
 
 	## QUESTION 8
 	answer8 = input('If you could live in any city outside the US, where would you live?\n1. Mexico City\n2. Rio de Janeiro\n'
-                        '3. Denver\n4. I said I hate cities!\n\nYour Answer: ')
+                        '3. France\n4. I said I hate cities!\n\nYour Answer: ')
 	p8 = give_points(answer8)
         while p8 == -1:
             answer8 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
             p8 = give_points(answer8)
         total_points += p8
 
+	## QUESTION 9
+        answer9 = input('You are going on a top secret mission--who do you employ as a team?\n1. The Tune Squad.\n2. Winnie the Pooh & friends.\n'
+                        '3. Your best friends.\n4. I hate top secret missions.\n\nYour Answer: ')
+        p9 = give_points(answer9)
+        while p9 == -1:
+            answer9 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
+            p9 = give_points(answer9)
+        total_points += p9
 
+        ## QUESTION 10
+        answer10 = input('Which female Disney villain is the best?\n1. Malificent.\n2. Yzma\n'
+                        '3. Cruella de Vil \n4. I hate female Disney villains.\n\nYour Answer: ')
+        p10 = give_points(answer10)
+        while p10 == -1:
+            answer10 = input('INVALID INPUT. Try again.\n\nYour Answer: ')
+            p10 = give_points(answer10)
+        total_points += p10
+
+	
+	result = calculate_friendship(total_points)
+	print 'You\'ve completed my friendship algorithm! Thanks for playing!\n
+		RESULTS: ' + str(total_points) + '/110.'
+	calculate_frienship(total_points)
+ 
         ## REPEAT MENU ITEM
         user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 
 def give_points(answer):
-    q_points = 0
-    if answer == 1: q_points += 10
-    elif answer == 2: q_points += 5
-    elif answer == 3: q_points += 0
-    elif answer == 4: q_points -= -5
-    else: q_points = -1
+    	q_points = 0
+    	if answer == 1: q_points += 10
+    	elif answer == 2: q_points += 5
+    	elif answer == 3: q_points += 0
+    	elif answer == 4: q_points -= -5
+    	else: q_points = -1
 
-    return q_points
+   	return q_points
 
 def calculate_friendship(points):
-    if points >= 80: print 'We are gonna be TIGHT. Boys for LIFE!!!!'
-    elif points < 80 and points >=60: ''
+    	if points >= 85: print 'We are gonna be TIGHT. Boys for LIFE!!!!\n\n'
+    	elif points < 85 and points >= 60: 'You\'re pretty chill. Or MAYBE you\'re insane. Either way. I\'m into it.\n\n'
+	elif points < 60 and points >= 30: 'Ya. We different, but we sometimes the same. Could be a fun balancing act?\n\n'
+	elif points < 30 and points >= 0: 'I\'m sure we could find SOMETHING we have in common. Eventually.\n\n'
+	else: 'So we\'re REALLY different !! That\'s cool I guess!.. ..!!.. !.\n\n'
 
 play_game()
 
