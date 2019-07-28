@@ -10,7 +10,7 @@ def play_game():
 		## YOUR CODE HERE
 
         	## Q1, example
-        	answer1 = input('Do you like coding?\n1.Yes\n2.No\n\nYour Answer: ')
+        	answer1 = input('Do you like coding?\n1. Yes\n2. No\n\nYour Answer: ')
 		
 
 		## REPEAT MENU ITEM
