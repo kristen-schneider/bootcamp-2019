@@ -9,10 +9,10 @@ def play_game():
 
 		## STEP 1 HERE
 
-        	## Q1, example
-        	answer1 = input('Do you like coding?\n1. Yes\n2. No\n\nYour Answer: ')
-		
-
-		## REPEAT MENU ITEM
-        	user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
-play_game()
+		## STEP 2&3 HERE
+	
+		## STEP 4 HERE
+	
+	user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
+	
+play_game()	
