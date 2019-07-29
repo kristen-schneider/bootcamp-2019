@@ -6,9 +6,9 @@ def play_game():
     	user_entry = 0
     	while user_entry != 1 and user_entry != 2: user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
     	while user_entry == 1:
-
+	
 		## STEP 1 HERE
-
+		answer_one = input('[question one]')
 		## STEP 2&3 HERE
 	
 		## STEP 4 HERE
