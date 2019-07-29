@@ -13,6 +13,7 @@ def play_game():
 	
 		## STEP 4 HERE
 	
-	user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
+		
+		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 	
 play_game()	
