@@ -8,7 +8,7 @@ def play_game():
     	while user_entry == 1:
 	
 		## STEP 1 HERE
-		answer_one = input('[question one]')
+		answer_one = input('[question one--press any key to continue]')
 		## STEP 2&3 HERE
 	
 		## STEP 4 HERE
