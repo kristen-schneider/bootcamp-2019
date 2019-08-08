@@ -11,7 +11,7 @@ def play_game():
     	while user_entry != 1 and user_entry != 2: user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
     	# if the user selects 1, they want to play! Ask them questions and wait for their answers.
 	while user_entry == 1:
-	
+		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 		## STEP 1 HERE
 		
 		## STEP 2&3 HERE
@@ -19,7 +19,7 @@ def play_game():
 		## STEP 4 HERE
 	
 		
-		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
+		#user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 	
 
 
