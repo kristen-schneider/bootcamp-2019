@@ -12,7 +12,7 @@ def play_game():
 	while user_entry == 1:
 		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 		## STEP 1 HERE
-		
+		# I don't want to be your friend. Exit now
 		## STEP 2&3 HERE
 	
 		## STEP 4 HERE
