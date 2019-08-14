@@ -19,7 +19,7 @@ def play_game():
 		else:
 			total_points += 0
 		## STEP 4 HERE
-	
+		print total_points	
 		
 		#user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 	
