@@ -10,9 +10,9 @@ def play_game():
 	while user_entry != 1 and user_entry != 2: user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 	# if the user selects 1, they want to play! Ask them questions and wait for their answers.
 	while user_entry == 1:
-		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 		## STEP 1 HERE
-		answer_one = input('Do you like coding?\n1.Yes\n2. No\n\nYour Answer:')		
+		total_points = 0
+		answer_one = input('Do you like coding?\n1. Yes\n2. No\n\nYour Answer:')		
 		## STEP 2&3 HERE
 		if answer_one == 1:
 			total_points += 5
@@ -21,7 +21,7 @@ def play_game():
 		## STEP 4 HERE
 		print total_points	
 		
-		#user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
+		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 	
 
 
