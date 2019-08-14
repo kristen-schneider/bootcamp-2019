@@ -12,9 +12,9 @@ def play_game():
 	while user_entry == 1:
 		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 		## STEP 1 HERE
-		
+		answer_one = input('Do you like coding?\n1.Yes\n2. No\n\nYour Answer:')		
 		## STEP 2&3 HERE
-	
+			
 		## STEP 4 HERE
 	
 		
