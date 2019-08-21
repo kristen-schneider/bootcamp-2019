@@ -14,8 +14,9 @@ def play_game():
 	        total_points = 0
                 answer_one = input("Which TV Show is better?\n1. Friends\n 2. How I Met Your Mother\n 3. I don't like either") 
 		## STEP 2&3 HERE
-	        if answer_one:
-                else:
+	        if answer_one == 1: total_points += 4
+                elif answer_one == 2: total_points += 0
+                else: total_points += -4
 		## STEP 4 HERE
 	
 		
