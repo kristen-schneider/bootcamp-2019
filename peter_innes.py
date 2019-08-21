@@ -46,7 +46,7 @@ def give_points(answer):
 
 def calculate_friendship(total_score):
 	print('your score is:', total_score, 'out of 50')
-	if total_score >= 5: print('let us be friends\n')
+	if total_score >= 5: print('thanks for playing xo\n')
 	elif total_score < 5: print('yay friends\n')
 
 play_game()
