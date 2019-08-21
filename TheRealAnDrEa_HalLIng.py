@@ -11,9 +11,13 @@ def play_game():
 	# if the user selects 1, they want to play! Ask them questions and wait for their answers.
 	while user_entry == 1:
 		## STEP 1 HERE
-		
+		total_points = 0
+		answer_one = input("Do you h8 cats?\n. Yes\n2. meh\n3. No, I love them!")
+
 		## STEP 2&3 HERE
-	
+		if answer_one:
+		else:		
+
 		## STEP 4 HERE
 	
 		
