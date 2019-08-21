@@ -25,7 +25,7 @@ def play_game():
 			total_points -= 5
 
 		## STEP 4 HERE
-
+		print("Total points: " + total_points)
 
 		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 
