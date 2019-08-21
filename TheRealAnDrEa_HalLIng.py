@@ -15,8 +15,9 @@ def play_game():
 		answer_one = input("Do you h8 cats?\n. Yes\n2. meh\n3. No, I love them!")
 
 		## STEP 2&3 HERE
-		if answer_one:
-		else:		
+		if answer_one == 1: total_points += 0
+		elif answer_one == 2: total_points += 2
+		else: total_points += 5		
 
 		## STEP 4 HERE
 	
