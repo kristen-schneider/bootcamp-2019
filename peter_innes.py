@@ -4,7 +4,7 @@ import sys
 
 def play_game():
 	user_entry=0
-	while user_entry == 0: user_entry = input('Do you want to take my friendship quiz? Yes or No.\n ')
+	while user_entry == 0: user_entry = input('Do you want to take my friendship quiz? Yes or No (case sensitive).\n ')
 	if user_entry == "No": print('goodbye')
 	while user_entry == "Yes":
 		total_score = 0
@@ -46,7 +46,7 @@ def give_points(answer):
 
 def calculate_friendship(total_score):
 	print('your score is:', total_score, 'out of 50')
-	if total_score >= 5: print('let us be friends\n')
+	if total_score >= 5: print('thanks for playing xo\n')
 	elif total_score < 5: print('yay friends\n')
 
 play_game()
