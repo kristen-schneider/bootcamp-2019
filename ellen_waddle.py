@@ -15,7 +15,8 @@ def play_game():
 		answer_one=input("[big dogs or small?\n1.big\n2.small\n3.cats?]")
 
 		## STEP 2&3 HERE
-	
+		if answer_one:
+		else:	
 		## STEP 4 HERE
 	
 		
