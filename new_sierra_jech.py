@@ -11,7 +11,8 @@ def play_game():
 	# if the user selects 1, they want to play! Ask them questions and wait for their answers.
 	while user_entry == 1:
 		## STEP 1 HERE
-		
+		total_points = 0
+		answer_one = input("Do you prefer tea or coffee?\n1. tea\n2. cofee\n3. both")
 		## STEP 2&3 HERE
 	
 		## STEP 4 HERE
