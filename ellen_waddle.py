@@ -11,7 +11,9 @@ def play_game():
 	# if the user selects 1, they want to play! Ask them questions and wait for their answers.
 	while user_entry == 1:
 		## STEP 1 HERE
-		
+		total_points=0
+		answer_one=input("[big dogs or small?\n1.big\n2.small\n3.cats?]")
+
 		## STEP 2&3 HERE
 	
 		## STEP 4 HERE
