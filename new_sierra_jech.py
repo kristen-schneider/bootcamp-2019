@@ -50,9 +50,9 @@ def play_game():
 		else : total_points += 5  
 
 		## STEP 4 HERE
-		if total_points >= 25: print("Let's write some commented code at the Rayback with kombucha or tea")
-		elif total_points < 25 and total_points >= 14: print("why can't we be friends, why can't we be friends")
-		else : print("ENEMIES!!!")
+		if total_points >= 25: print("Let's write some commented code at the Rayback with kombucha or tea\n")
+		elif total_points < 25 and total_points >= 14: print("why can't we be friends, why can't we be friends\n")
+		else : print("ENEMIES!!!\n")
 		
 		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
 		user_entry = int(user_entry)	
