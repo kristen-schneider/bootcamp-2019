@@ -11,7 +11,15 @@ def play_game():
 
 		# QUESTIONS
 		ans1 = input('Pick your favorite coffee drink\n1. Cappucino\n2. A damn fine cup of coffee \n3. Caffeine makes me anxious\n4. I prefer tea\n\nYour answer: ')
+			
+		
 		ans2 = input('What dinosaur as pet?\n1. duck-thing\n2. parrot\n3. stego\n4. pterodactyl\n\nYour answer: ')       
+		
+		if int(ans2) == 1: 
+			ans2b = input('What do ducks mean to you?\n1. duck is life\n2. I eat the duck\n3. Mighty Ducks is a great movie\n4. I go to the duck park daily\n\nYour answer: ')
+			if int(ans2b) == 4: total_score +=10
+			else: total_score +=5
+	
 		ans3 = input('Fill in the blank: grad school fills me with ______\n1. Curiosity and Wonder\n2. I am empty inside\n3. Knowledge\n4. existensial dread\n\nYour answer: ')
 		ans4 = input('Favorite life hack:\n1. Napping\n2. Telling your mom you love her\n3. Bubble baths\n4. Pagan rituals\n\nYour answer: ')
 		
