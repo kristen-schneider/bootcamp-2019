@@ -14,7 +14,8 @@ def play_game():
 		total_points = 0
 		answer_one = input("Do you prefer tea or coffee?\n1. tea\n2. cofee\n3. both")
 		## STEP 2&3 HERE
-	
+		if answer_one:
+		else:
 		## STEP 4 HERE
 	
 		
