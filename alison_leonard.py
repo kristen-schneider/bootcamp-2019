@@ -14,8 +14,8 @@ def play_game():
 		total_points = 0
 		answer_one = input("Do you like dogs?\n1. Yes\n2. No")
 		## STEP 2&3 HERE
-		if answer_one: 
-		else:
+		if answer_one == 1: total_points += 5 
+		else: total_points += 0
 		## STEP 4 HERE
 	
 		
