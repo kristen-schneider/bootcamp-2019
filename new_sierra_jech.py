@@ -51,7 +51,7 @@ def play_game():
 
 		## STEP 4 HERE
 		if total_points >= 25: print("Let's write some commented code at the Rayback with kombucha or tea")
-		elif total_points < 25 and >= 14: print("why can't we be friends, why can't we be friends")
+		elif total_points < 25 and total_points >= 14: print("why can't we be friends, why can't we be friends")
 		else total_points < 14: print("ENEMIES!!!")
 		
 		user_entry = input('Select Option!\n1. Play Game\n2. Exit Game\n\nYour Selection: ')
