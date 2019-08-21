@@ -13,9 +13,16 @@ def play_game():
 		## STEP 1 HERE
 		total_points = 0
 		q1 = input("Do you enjoy reading books?\n1: Yes\n2: No")
+		try:
+			q1 = int(q1)
+		except Exception as e:
+			raise ValueError("Answer must be an integer!")
 
 		## STEP 2&3 HERE
-		total_points = total_points + 10 if q1 else total_points - 5
+		if q1 == 1:
+			total_points += 10
+		else:
+			total_points -= 5
 
 		## STEP 4 HERE
 
