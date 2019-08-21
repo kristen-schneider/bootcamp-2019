@@ -31,13 +31,13 @@ def give_points(answer):
 	answer=int(answer)
 	points = 0
 	if answer == 1: points += 10
-	elif answer == 2: points += 5
-	elif answer == 3: points += 0
-	elif answer == 4: points -= -5
+	elif answer == 2: points += 7
+	elif answer == 3: points += 6
+	elif answer == 4: points -= 5
 	return points
 
 def calculate_friendship(total_score):
-	print('your score is:', total_score, ' 50')
+	print('your score is:', total_score, 'out of 50')
 	if total_score >= 5: print('let us be friends\n')
 	elif total_score < 5: print('yay friends\n')
 
