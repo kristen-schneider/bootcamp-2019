@@ -15,8 +15,9 @@ def play_game():
 		answer_one=input("[big dogs or small?\n1.big\n2.small\n3.cats?]")
 
 		## STEP 2&3 HERE
-		if answer_one:
-		else:	
+		if answer_one==1: total_points += 5
+		elif answer_one==2: total_points += 3
+		else: total_points+=0
 		## STEP 4 HERE
 	
 		
