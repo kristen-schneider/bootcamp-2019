@@ -35,6 +35,7 @@ affirmatives = ["Yes", "yes", "Yeah", "yeah", "sure", "Sure"]
 negatives = ["No", "no", "nope", "Nope"]
 
 def adder(points):
+	global k 
 	k += points
 	return
 
@@ -54,7 +55,7 @@ def initialize():
 	fastprints("##############")
 	fastprints("100%]")
 	fastprints("\n...")
-	fastprints("\n Welcome to Friendship Algorithm")
+	fastprints("\n Welcome to Friendship Algorithm \n")
 
 def user():
 	fastprints("Do you want to take the quiz? \n")
@@ -97,7 +98,7 @@ def question1():
 
 def question2():
 	fastprints("What is your favorite type of weather?\n")
-	command = lower(input("Hot, cold, rainy, or idc\n"))
+	command = input("Hot, cold, rainy, or idc\n").lower()
 	if command == "hot":
 		fastprints("I respect it \n")
 		adder(5)
