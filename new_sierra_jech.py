@@ -27,7 +27,7 @@ def play_game():
 		elif answer_two == 2 : total_points += 2
 		elif answer_two == 3 : total_points += 5
 		elif answer_two == 4: total_points += 2
-		else answer_two == 5: total_points += 10
+		else : total_points += 10
 
 		## Question 3
 		answer_three = input("The best coding is:\n1. python\n2. R\n3. C++ \n4. commented\n")
@@ -37,7 +37,7 @@ def play_game():
 		if answer_three == 1: total_points += 5
 		elif answer_three == 2: total_points += 5
 		elif answer_three == 3: total_points += 2
-		elif answer_three == 4: total_points += 10
+		else : total_points += 10
 
 		## Question 4
 		answer_five = input("The best part of going to the Rayback is:\n1. corn hole\n2. dancing \n3. kombucha\n4. meeting my IQ peeps\n")
@@ -47,7 +47,7 @@ def play_game():
 		if answer_five == 1: total_points += 2
 		elif answer_five == 2: total_points += 2
 		elif answer_five == 3: total_points += 5
-		elif answer_five == 4: total_points += 5  
+		else : total_points += 5  
 
 		## STEP 4 HERE
 		if total_points >= 25: print("Let's write some commented code at the Rayback with kombucha or tea")
