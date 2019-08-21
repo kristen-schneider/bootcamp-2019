@@ -14,7 +14,8 @@ def play_game():
 		total_points= 0
                 answer_one = input ("Do you read books? \n1. Yes\n2. No")
 		## STEP 2&3 HERE
-	
+                if answer_one:
+                else: 
 		## STEP 4 HERE
 	
 		
