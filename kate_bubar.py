@@ -12,9 +12,10 @@ def play_game():
 	while user_entry == 1:
 		## STEP 1 HERE
 	        total_points = 0
-                answer_one = input("Which TV Show is better?\n1. Friends\n 2. How I Met Your Mother\n 3. I don't think either") 
+                answer_one = input("Which TV Show is better?\n1. Friends\n 2. How I Met Your Mother\n 3. I don't like either") 
 		## STEP 2&3 HERE
-	
+	        if answer_one:
+                else:
 		## STEP 4 HERE
 	
 		
