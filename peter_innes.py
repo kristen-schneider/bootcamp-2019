@@ -12,8 +12,8 @@ def play_game():
 		# QUESTIONS
 		ans1 = input('Pick your favorite coffee drink\n1. Cappucino\n2. A damn fine cup of coffee \n3. Caffeine makes me anxious\n4. I prefer tea\n\nYour answer: ')
 		ans2 = input('What dinosaur as pet?\n1. duck-thing\n2. parrot\n3. stego\n4. pterodactyl\n\nYour answer: ')       
-		ans3 = input('Fill in the blank: grad school fills me with ______\n1. Knowledge\n2. I am empty inside\n3. Curiosity and wonder\n4. existensial dread\n\nYour answer: ')
-		ans4 = input('Favorite life hack:\n1. napping\n2. Telling your mom you love her\n3. Bubble baths\n4. Pagan rituals\n\nYour answer: ')
+		ans3 = input('Fill in the blank: grad school fills me with ______\n1. Curiosity and Wonder\n2. I am empty inside\n3. Knowledge\n4. existensial dread\n\nYour answer: ')
+		ans4 = input('Favorite life hack:\n1. Napping\n2. Telling your mom you love her\n3. Bubble baths\n4. Pagan rituals\n\nYour answer: ')
 		
 		# LOOP THROUGH ANSWERS AND GIVE POINTS
 		answers = [ans1, ans2, ans3, ans4]
@@ -30,8 +30,8 @@ def play_game():
 def give_points(answer):
 	answer=int(answer)
 	points = 0
-	if answer == 1: points += 10
-	elif answer == 2: points += 7
+	if answer == 1: points += 7
+	elif answer == 2: points += 10
 	elif answer == 3: points += 6
 	elif answer == 4: points -= 5
 	return points
